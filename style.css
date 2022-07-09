@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.protfolio{
+    width: 100%;
+    height: 100vh;
+   background: linear-gradient(rgba(0, 128, 0,0.5),rgb(0, 0, 255,0.5)), url(image/background2.jpg) no-repeat center/cover;
+}
+.container{
+    width: 90%;
+    height: 130px;
+    margin: auto;
+    overflow: hidden;
+}
+.nayem{
+    width: 30%;
+    margin:50PX 10PX;
+    position: absolute;
+    overflow: hidden;
+    
+}
+SPAN{
+    color: white;
+}
+.nayem span{
+   display:inline-block;
+   width: 50px;
+   height: 50px;
+   border: 3px solid yellow;
+   text-align: center;
+   float: left;
+   margin: 0px 5px;
+}
+.frist{
+    color: red;
+}
+.nayem p{
+    font-size: 40PX;
+}
+/* ------menu-item------ */
+
+.list-item ul{
+    position: absolute;
+    top: 70px;
+    right: 90px;
+    text-align: right;
+    
+}
+.list-item ul li{
+    display: inline-block;
+    list-style-type: none;
+    border: 2px solid yellow;
+    margin-right: 10px;
+    padding: 2px 3px;
+}
+.list-item ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.list-item ul li:hover{
+    background:#002a26;
+}
+/* ------contaient-area------ */
+.small-container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.w-50{
+    width: 48%;
+    margin-left: 1%;
+    float: left;
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+}
+.nayem-picture img{
+    width: 80%;
+    transform: rotatey(-20deg);
+    border-radius: 50%;
+    border: 5px solid white;
+    
+}
+.nayem-picture{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border-radius: 25px;
+}
+.title h1{
+    color: yellow;
+    font-size: 65px;
+    margin-top: 75px;
+    margin-bottom: 10px;
+}
+.im{
+    font-size: 35px;
+    color: red;
+}
+.title h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+    
+}
+.title p{
+    font-size: 20px;
+    color: yellow;
+    margin-bottom: 10px;
+}
+.title small{
+    color: white;
+    line-height: 25px;
+    display:block;
+    margin-bottom: 10px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background: red;
+    border-radius: 2px;
+}
+.content-area{
+    overflow: hidden;
+}
+/* ------about me------ */
+
+.image3 img{
+    width: 100%;
+}
+.about h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.about::after{
+    content: "";
+    display: block;
+   width: 300px;
+   height: 10px;
+   margin: auto;
+   margin-top: 10px;
+   background:rgb(0, 238, 255);
+   border-radius: 30px;
+}
+.I::first-letter{
+    display: block;
+    color: red;
+    font-size: 30px;
+}
+#about-me{
+    background: linear-gradient(white,pink);
+    overflow: hidden;
+}
+.I{
+    margin: 70px 0px 0px 30px;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: left;
+}
+/* ------our service------ */
+
+.service{
+    width: 30%;
+    margin: 30px 16px;
+    padding: 15px;
+    float: left;
+    transition: 0.5s;
+    background: rgba(248, 242, 243, 0.288);
+    box-shadow: 0 0 5px 2px black;
+}
+.our-services{
+    text-align: center;
+}
+.logo img{
+    width: 50%;
+    height:120px;
+    transition: 0.6s;
+}
+.title h3{
+    font-size: 25px;
+  margin-bottom: 15px;
+}
+.comment2 p{
+    font-size: 14px;
+}
+.comment p{
+    display: block;
+    margin-top: 30px;
+}
+.all-servise{
+    margin-top: 50px;
+}
+.logo .video{
+    width: 80%;
+}
+.service:hover{
+    transform: scale(1.05);
+}
+.service:hover img{
+    transform: scale(1.07);
+}
+/* ------our wotk------ */
+
+.work{
+    width: 23%;
+    text-align: center;
+    margin: 15px 10px;
+    float: left;
+    transition: 0.5s;
+
+}
+.w-image img{
+    width: 100%;
+    box-shadow: 0 0 4px 1px black;
+}
+.recent{
+    margin-top: 70px;
+    overflow: hidden;
+}
+.recent-work{
+    text-align: center;
+}
+.web h4{
+    font-size: 18px;
+    margin: 7px 2px;
+}
+.next span{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #05e0ca;
+    color: black;
+    float: left;
+    margin: 5px;
+    padding-top: 8px;
+   
+}
+.next span:hover{
+    background: aqua;
+    color: white;
+}
+.next{
+    margin-left: 37%;
+    margin-top: 20px;
+}
+.work a{
+    display: none;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background: aqua;
+    width: 50%;
+    margin: auto;
+    margin-top: 6px;
+    transition: 0.5s;
+}
+.work:hover{
+    transform: translatey(-10px);
+}
+.work:hover a{
+    display:block;
+    transition: 2s;
+}
+.work:hover h4{
+    display:none ;
+}
+/* ------contact me------ */
+.icon{
+    width: 20%;
+    float: left;
+}
+.add a{
+    display: block;
+    text-decoration: none;
+    color: aqua;
+}
+.contact-me{
+}
+.add{
+    text-align:left;
+    padding-left: 10%;
+}
+.form h1{
+    text-align: left;
+}
+.form a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    background:aqua;
+    margin: 20px 5px;
+}
+.form {
+    text-align: left;
+}
+.w-50 input{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    outline: none;
+}
+.w-50 textarea{
+    width: 100%;
+    margin:10px 0px;
+    outline: none;
+}
+.contact-me.w-50{
+    padding: 5px 100px;
+}
+.w-50 .form{
+    width: 70%;
+    box-shadow:0px 0px 5px 1px black;
+    padding: 20px;
+    margin-left: 10%;
+
+}
+.contact{
+    width: 98%;
+    overflow: hidden;
+    margin: 10px;
+    margin-top: 60px;
+    height: 100%;
+    box-shadow:0px 0px 5px 1px black;
+    
+}
+.contact .w-50{
+    margin: 60px 0px;
+}
+.Address,.phone,.email{
+    margin: 46px 0px;
+}
+.contact i{
+    width: 40px;
+    height: 40px;
+    display: block;
+    border: 1px solid #555;
+    border-radius: 50%;
+    text-align: center;
+    padding-top:10px;
+}
+.icon i{
+    margin: 43px 0px;
+    color: aqua;
+}
+
+
+
+/* ------footer------ */
+.footer{
+    width: 100%;
+    height: 250px;
+    background: black;
+    position: relative;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.iicon{
+    width: 30%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.iicon i{
+    color: white;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 50px 18px;
+    font-size: 35px;
+    
+}
+.icon+{
+    width:25%;
+    float: left;
+}
+hr{
+    border: none;
+    height: 1px;
+    background: #555;
+   
+}
+.footer p{
+    margin-top: 5px;
+    color: #555;
+}
+.list-item input{
+    display: none;
+}
+.list-item i{
+    display: none;
+}
+.comment{
+    text-align: center;
+}
+.service{
+    text-align: center;
+}
+/* ------responsive------ */
+@media only screen and (max-width:800px){
+  .list-item ul{
+    position: absolute;
+    display: block;
+    background: #002a26;
+  }
+   .nayem {
+    width: 80%;
+    }
+    .nayem span{
+        width: 40px;
+        height: 40px;
+    }
+    .nayem p{
+        font-size: 30px;
+    }
+    .container{
+        margin: 0;
+    }
+    .w-50{
+        width: 100%;
+        margin: 0;
+    }
+    .title h2 {
+        font-size: 32px;
+    }
+    .title h1 {
+        font-size: 60px;
+    }
+    .redius{
+        margin-top: 40px;
+    }
+    .I{
+        font-size: 14px;
+    }
+
+    /*------responsive our service------ */
+     .comment p{
+        text-align: center;
+    }
+    .service{
+        width: 90%;
+        text-align: center;
+    }
+    /* ------responsive recent work------ */
+    .work{
+        width: 93%;
+    }
+    .work a{
+        width: 50%;
+    }
+    .next{
+        margin-left: 15%;
+    }
+    .contact{
+        box-shadow: 0 0 0 0;
+    }
+    .contact .w-50 {
+        margin: 20px 0px;
+    }
+    .w-50 .form {
+        width: 90%;
+       margin: auto;
+    }
+    .iicon {
+        width: 100%;
+        margin-left:22px;
+    }
+    .contact{
+        margin: 5px;
+    }
+    /* ------responsive recent work closd------ */
+
+
+    .list-item i{
+        top: 53px;
+        right: 45px;
+        font-size: 33px;
+        color: yellow;
+        position: absolute;
+        display: block;
+    }
+    .list-item ul{
+        position: absolute;
+        top: 90px;
+        right: 10px;
+        width: 24%;
+        text-align: right;
+        display:none;
+        padding-bottom: 12px;
+    }
+    .container{
+        width: 100%;
+        height:180px;
+        overflow: hidden;
+    }
+    .list-item ul li{
+        width: 100%;
+    }
+    .list-item ul li{
+        border: 0;
+        margin: 2px 0px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .list-item ul li:hover{
+        border: 1px solid yellow;
+    }
+    .title h1 {
+        color: yellow;
+        font-size: 65px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+
+    }
+    input:checked+ul{
+        display: block;
+    }
+    .protfolio{
+        overflow: hidden;
+    }
+
+
+}
+
