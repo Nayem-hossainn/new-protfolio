@@ -81,7 +81,7 @@ SPAN{
 }
 .nayem-picture img{
     width: 100vh
-    hight:100vh;
+    height:100vh;
     transform: rotatey(-20deg);
     border-radius: 50%;
     border: 5px solid white;
