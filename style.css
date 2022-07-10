@@ -80,8 +80,7 @@ SPAN{
     text-align: center;
 }
 .nayem-picture img{
-    width: 100%
-    height:100%;
+    width: 100%;
     transform: rotatey(-20deg);
     border-radius: 50%;
     border: 5px solid white;
