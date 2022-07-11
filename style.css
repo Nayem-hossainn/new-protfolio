@@ -527,7 +527,7 @@ hr{
         overflow: hidden;
     }
      .nayem-picture img{
-        border-radius: 10px;
+        border-radius: 50%;
         border: 3px solid white;
     }
 
